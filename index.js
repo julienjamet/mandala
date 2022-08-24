@@ -180,7 +180,23 @@ function savePanel(panel) {
 function getPanel() {
     let panel = localStorage.getItem("panel");
     if (panel === null) {
-        return [];
+        let panel = {
+            colorOne: "black",
+            colorTwo: "purple",
+            colorThree: "darkviolet",
+            colorFour: "violet",
+            colorFive: "blue",
+            colorSix: "skyblue",
+            colorSeven: "green",
+            colorEight: "yellow",
+            colorNine: "orange",
+            colorTen: "red",
+            translationX: 1,
+            translationY: 100,
+            rotation: 100,
+            timing: 20
+        };
+        return panel;
     }
     else {
         return JSON.parse(panel);
@@ -248,7 +264,7 @@ window.addEventListener("DOMContentLoaded", function() {
 
     ctx.fillStyle = lingrad;
 
-    ctx.translate(monCanvas.width/1.5, monCanvas.height/2.5);
+    ctx.translate(monCanvas.width/2, monCanvas.height/2.5);
 
     let i = 0;
     const inter = setInterval(rotation, `${panel.timing}`);

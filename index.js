@@ -178,7 +178,7 @@ function savePanel(panel) {
     localStorage.setItem("panel", JSON.stringify(panel));
 };
 function getPanel() {
-    let panel = localStorage.getItem("panel");
+    let panel = localStorage.getItem("panel"); /**/
     if (panel === null) {
         let panel = {
             colorOne: "black",

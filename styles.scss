@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body {
+    background-color: #061133;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    label {
+        color: white;
+        margin-left: 15px;
+    }
+    input {
+        height: 25px;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+    #translationX, #translationY, #rotation, #timing {
+        width: 50px;
+    }
+}

@@ -1,3 +1,28 @@
-body {
-    background-color: #061133;
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
+
+body {
+  background-color: #061133;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+}
+form label {
+  color: white;
+  margin-left: 15px;
+}
+form input {
+  height: 25px;
+  padding: 0;
+  margin-bottom: 10px;
+}
+form #translationX, form #translationY, form #rotation, form #timing {
+  width: 50px;
+}/*# sourceMappingURL=styles.css.map */

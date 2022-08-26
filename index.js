@@ -1,6 +1,3 @@
-document.interestCohort(allow);
-
-
 /*Définition des variables couleurs------------------------*/
 const colorOne = document.getElementById("colorOne");
 const colorTwo = document.getElementById("colorTwo");

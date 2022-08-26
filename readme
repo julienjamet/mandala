@@ -1,0 +1,8 @@
+I am getting an error I can't solve with the online version of this projet : 
+
+My localStorage.setItem() and localStorage.getItem() functions are blocked and the console tells me :
+"Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'."
+
+https://julienjamet.github.io/mandala
+
+Nevertheless you can perfectly use the site locally by downloading or cloning the repository.

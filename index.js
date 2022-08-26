@@ -1,3 +1,6 @@
+document.interestCohort();
+
+
 /*Définition des variables couleurs------------------------*/
 const colorOne = document.getElementById("colorOne");
 const colorTwo = document.getElementById("colorTwo");
@@ -233,6 +236,7 @@ submit.addEventListener("click", function(e) {
 
 /*Récupération du panel et application dans le DOM-----------------------*/
 window.addEventListener("DOMContentLoaded", function() {
+    Permissions-Policy: interest-cohort=();
     let panel = getPanel();
 
     colorOne.setAttribute("value", `${panel.colorOne}`);

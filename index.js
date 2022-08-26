@@ -181,20 +181,20 @@ function getPanel() {
     let panel = localStorage.getItem("panel"); /**/
     if (panel === null) {
         let panel = {
-            colorOne: "black",
-            colorTwo: "purple",
+            colorOne: "#ffffff",
+            colorTwo: "#ff0000",
             colorThree: "darkviolet",
             colorFour: "violet",
             colorFive: "blue",
             colorSix: "skyblue",
             colorSeven: "green",
             colorEight: "yellow",
-            colorNine: "orange",
-            colorTen: "red",
-            translationX: 1,
+            colorNine: "#ff0000",
+            colorTen: "#000000",
+            translationX: "40",
             translationY: 100,
-            rotation: 100,
-            timing: 20
+            rotation: "80",
+            timing: "30"
         };
         return panel;
     }

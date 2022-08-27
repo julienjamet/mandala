@@ -33,6 +33,10 @@ form #translationX, form #translationY, form #rotation, form #timing {
     display: flex;
     flex-direction: column;
   }
+  body canvas {
+    min-height: 200px;
+    max-height: 30%;
+  }
   body form {
     order: 2;
     display: flex;

@@ -31,6 +31,10 @@ form {
     body {
         display: flex;
         flex-direction: column;
+        canvas {
+            min-height: 200px;
+            max-height: 30%;
+        }
         form {
             order: 2;
             display: flex;

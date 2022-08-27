@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body {
+  background-color: #061133;
+  margin: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+}
+form label {
+  color: white;
+  margin-left: 15px;
+}
+form input {
+  height: 25px;
+  padding: 0;
+  margin-bottom: 10px;
+}
+form #translationX, form #translationY, form #rotation, form #timing {
+  width: 50px;
+}
+
+@media all and (max-width: 768px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  body form {
+    order: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 430px;
+    width: 100%;
+    margin-top: 230px;
+  }
+  body form .inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+  }
+  body form .inputs div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body form .inputs div label {
+    margin: 0;
+    padding: 0;
+  }
+  body form #submit {
+    width: 200px;
+  }
+}/*# sourceMappingURL=styles.css.map */

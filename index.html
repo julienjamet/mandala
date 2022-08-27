@@ -2,72 +2,86 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Bienvenue sur mon créateur de mandalas animés !">
+
+    <link rel="stylesheet" type="text/css" href="./css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+
     <title>Canvas</title>
 </head>
 <body>
     <canvas id="dessin" width="1200px" height="690px"></canvas>
-    <form id="formColors">
+    <form>
         <p>
-            <div>
-                <input type="color" id="colorOne">
-                <label for="colorOne">Color 1</label>
+            <div class="inputs">
+            <div class="1-5">
+                <div>
+                    <input type="color" id="colorOne">
+                    <label for="colorOne">Color 1</label>
+                </div>
+                <div>
+                    <input type="color" id="colorTwo">
+                    <label for="colorOne">Color 2</label>
+                </div>
+                <div>
+                    <input type="color" id="colorThree">
+                    <label for="colorOne">Color 3</label>
+                </div>
+                <div>
+                    <input type="color" id="colorFour">
+                    <label for="colorOne">Color 4</label>
+                </div>
+                <div>
+                    <input type="color" id="colorFive">
+                    <label for="colorOne">Color 5</label>
+                </div>
             </div>
-            <div>
-                <input type="color" id="colorTwo">
-                <label for="colorOne">Color 2</label>
+
+            <div class="6-10">
+                <div>
+                    <input type="color" id="colorSix">
+                    <label for="colorOne">Color 6</label>
+                </div>
+                <div>
+                    <input type="color" id="colorSeven">
+                    <label for="colorOne">Color 7</label>
+                </div>
+                <div>
+                    <input type="color" id="colorEight">
+                    <label for="colorOne">Color 8</label>
+                </div>
+                <div>
+                    <input type="color" id="colorNine">
+                    <label for="colorOne">Color 9</label>
+                </div>
+                <div>
+                    <input type="color" id="colorTen">
+                    <label for="colorOne">Color 10</label>
+                </div>
             </div>
-            <div>
-                <input type="color" id="colorThree">
-                <label for="colorOne">Color 3</label>
+
+            <div class="moveSettings">
+                <div>
+                    <input type="number" id="translationX">
+                    <label for="translationX">Translation (X)</label>
+                </div>
+                <div>
+                    <input type="number" id="translationY">
+                    <label for="translationY">Translation (Y)</label>
+                </div>
+                <div>
+                    <input type="number" id="rotation">
+                    <label for="rotation">Rotation</label>
+                </div>
+                <div>
+                    <input type="number" id="timing">
+                    <label for="timing">Timing (ms)</label>
+                </div>
             </div>
-            <div>
-                <input type="color" id="colorFour">
-                <label for="colorOne">Color 4</label>
-            </div>
-            <div>
-                <input type="color" id="colorFive">
-                <label for="colorOne">Color 5</label>
-            </div>
-            <div>
-                <input type="color" id="colorSix">
-                <label for="colorOne">Color 6</label>
-            </div>
-            <div>
-                <input type="color" id="colorSeven">
-                <label for="colorOne">Color 7</label>
-            </div>
-            <div>
-                <input type="color" id="colorEight">
-                <label for="colorOne">Color 8</label>
-            </div>
-            <div>
-                <input type="color" id="colorNine">
-                <label for="colorOne">Color 9</label>
-            </div>
-            <div>
-                <input type="color" id="colorTen">
-                <label for="colorOne">Color 10</label>
-            </div>
-            <div>
-                <input type="number" id="translationX">
-                <label for="translationX">Translation (X)</label>
-            </div>
-            <div>
-                <input type="number" id="translationY">
-                <label for="translationY">Translation (Y)</label>
-            </div>
-            <div>
-                <input type="number" id="rotation">
-                <label for="rotation">Rotation</label>
-            </div>
-            <div>
-                <input type="number" id="timing">
-                <label for="timing">Timing (ms)</label>
             </div>
             
-
-            <button id="submit">Clic</button>
+            <button id="submit">Valider</button>
         </p>
     </form>
     

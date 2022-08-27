@@ -264,7 +264,7 @@ window.addEventListener("DOMContentLoaded", function() {
 
     ctx.fillStyle = lingrad;
 
-    ctx.translate(monCanvas.width/2, monCanvas.height/2.5);
+    ctx.translate(monCanvas.width/2, monCanvas.height/2);
 
     let i = 0;
     const inter = setInterval(rotation, `${panel.timing}`);

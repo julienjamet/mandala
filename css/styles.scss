@@ -32,8 +32,7 @@ form {
         display: flex;
         flex-direction: column;
         canvas {
-            min-height: 200px;
-            max-height: 30%;
+            height: 40vh;
         }
         form {
             order: 2;

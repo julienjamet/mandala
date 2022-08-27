@@ -34,7 +34,7 @@ form #translationX, form #translationY, form #rotation, form #timing {
     flex-direction: column;
   }
   body canvas {
-    height: 40vh;
+    height: 35vh;
   }
   body form {
     order: 2;

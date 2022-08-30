@@ -5,7 +5,7 @@ My localStorage.setItem() and localStorage.getItem() functions are blocked and t
 
 https://julienjamet.github.io/mandala
 
-Nevertheless you can perfectly use the site locally by downloading or cloning the repository.
+Nevertheless you can perfectly use the site locally by downloading or cloning the repository. It works also on Safari.
 
 Let's try these settings : 
 

@@ -6,3 +6,24 @@ My localStorage.setItem() and localStorage.getItem() functions are blocked and t
 https://julienjamet.github.io/mandala
 
 Nevertheless you can perfectly use the site locally by downloading or cloning the repository.
+
+Try these settings : 
+
+STAR :
+  translationX: 40
+  translationY: 120
+  rotation: 5
+  timing: 30
+  
+ATOM :
+  translationX: 100
+  translationY: 80
+  rotation: 30
+  timing: 80
+  
+DEMONIAC CLOCK :
+  translationX: 200
+  translationY: 10
+  rotation: 3
+  timing: 100
+

@@ -20,4 +20,10 @@ DEMONIAC CLOCK:
     rotation: 3
     timing: 100
     
+FLOATING HELIX :
+    translationX: 50
+    translationY: 100
+    rotation: 200
+    timing: 30   
+    
 Can you discover a new special shape ?
